@@ -2,11 +2,48 @@
 <head>
   <title>Aneesh Shrotriya</title>
   <link rel="shortcut icon" type="image/png" href="weblogosorange.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: "Times New Roman", Times, serif;
+    }
+    .topnav {
+      background-color: #E49B1E;
+      overflow: hidden;
+    }
+    
+    .topnav a {
+      float: left;
+      color: #000000;
+      text-align: center;  
+      text-decoration: none;
+      font-size: 20px;
+      padding: 16px 16px;
+    }
+    
+    .topnav a:hover {
+      background-color: #F2D056;
+      color: black;
+    }
+    
+    /* Add a color to the active/current link */
+    .topnav a.active {
+      background-color: #9B670E;
+      color: white;
+    }
+  </style>
 </head>
 
 <body>
   <h1>Welcome to my Homepage!</h1>
-  <p>This is a paragraph about me.</p>
+  <div class="topnav">
+    <a class="active" href="index.html">Home Page</a>
+    <a href="bio.html">Bio</a>
+    <a href="resume.html">Resume</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </div>
 </body>
 
 </html>
